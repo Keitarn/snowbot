@@ -7,7 +7,7 @@ MAX_MONSTERS = 8
 function move()
     return {
         -- Les déplacements, récoltes, combats
-		{map = "5,7", path = "bottom", gather = true},
+		{map = "5,7", path = "bottom"},
 		{map = "5,8", path = "bottom", gather = true},
 		{map = "5,9", path = "left"},
 		{map = "4,9", path = "left", gather = true},
@@ -80,7 +80,7 @@ function move()
 		{map = "6,9", path = "left", gather = true},
 		{map = "5,9", path = "top"},
 		{map = map:currentMap(), path = "havenbag", },
-		{map = "0,0", path = "zaap(88213271)"}, -- a remplacer par id tainela --
+		{map = "0,0", path = "zaap(88082704)"}, -- a remplacer par id tainela --
     }
 end
 
