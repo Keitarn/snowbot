@@ -80,7 +80,7 @@ function move()
 		{map = "6,9", path = "left", gather = true},
 		{map = "5,9", path = "top"},
 		{map = map:currentMap(), path = "havenbag", },
-		{map = "0,0", path = "zaap(88082704)"}, -- a remplacer par id tainela --
+		{map = "162791424", path = "zaap(88082704)"}, -- a remplacer par id tainela --
     }
 end
 
