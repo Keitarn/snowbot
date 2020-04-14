@@ -7,7 +7,7 @@ MAX_MONSTERS = 8
 function move()
     return {
         -- Les déplacements, récoltes, combats
-		{map = map:currentMap(), path = "havenbag", },
+		{map = map:currentMap(), path = "havenbag" },
 		{map = "5,7", path = "bottom"},
 		{map = "5,8", path = "bottom", gather = true},
 		{map = "5,9", path = "left"},
@@ -84,8 +84,8 @@ function move()
 end
 
 function bank()
-    return {		
-		{map = map:currentMap(), path = "havenbag", },
+    return {
+		{map = map:currentMap(), path = "havenbag"},
 		{map = "-2,0", path = "right"},
 		{map = "-1,0", path = "top"},
 		{map = "-1,-1", path = "right"},
