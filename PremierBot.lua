@@ -80,7 +80,7 @@ function move()
 		{map = "6,9", path = "left", gather = true},
 		{map = "5,9", path = "top"},
 		{map = "162791424", path = "zaap(88082704)"}, -- coin des bouftou --
-		{map = map:currentMap(), path = "havenbag", },
+		{map = map:currentMap(), path = "havenbag"},
     }
 end
 
@@ -95,7 +95,7 @@ function bank()
 		{map = "0,0", path = "zaap(88213271)"},
 		{map = "88081177", door = "216"},
 		{map = "99095051", path = "316", custom = hiboux}, --Banque Amakna--
-		{map = map:currentMap(), path = "havenbag", },
+		{map = map:currentMap(), path = "havenbag"},
     }
 end
 
