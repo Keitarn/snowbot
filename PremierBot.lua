@@ -7,6 +7,7 @@ MAX_MONSTERS = 8
 function move()
     return {
         -- Les déplacements, récoltes, combats
+		{map = map:currentMap(), path = "havenbag"},
 		{map = "5,7", path = "bottom"},
 		{map = "5,8", path = "bottom", gather = true},
 		{map = "5,9", path = "left"},
@@ -78,14 +79,13 @@ function move()
 		{map = "7,8", path = "left", gather = true},
 		{map = "6,8", path = "bottom", gather = true},
 		{map = "6,9", path = "left", gather = true},
-		{map = "5,9", path = "top"},
 		{map = "162791424", path = "zaap(88082704)"}, -- coin des bouftou --
-		{map = map:currentMap(), path = "havenbag"},
     }
 end
 
 function bank()
     return {
+		{map = map:currentMap(), path = "havenbag"},
 		{map = "-2,0", path = "right"},
 		{map = "-1,0", path = "top"},
 		{map = "-1,-1", path = "right"},
@@ -95,7 +95,6 @@ function bank()
 		{map = "0,0", path = "zaap(88213271)"},
 		{map = "88081177", door = "216"},
 		{map = "99095051", path = "316", custom = hiboux}, --Banque Amakna--
-		{map = map:currentMap(), path = "havenbag"},
     }
 end
 
