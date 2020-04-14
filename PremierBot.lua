@@ -37,7 +37,7 @@ function move()
 		{map = "6,5", path = "bottom", gather = true},
 		{map = "6,6", path = "bottom", gather = true},
 		{map = "6,7", path = "right", gather = true},
-		{map = "7,7", path = "top",
+		{map = "7,7", path = "top"},
 		{map = "7,6", path = "top", gather = true},
 		{map = "7,5", path = "top", gather = true},
 		{map = "7,4", path = "top", gather = true},
@@ -50,7 +50,7 @@ function move()
 		{map = "8,4", path = "bottom", gather = true},
 		{map = "8,5", path = "bottom", gather = true},
 		{map = "8,6", path = "bottom", gather = true},
-		{map = "8,7", path = "bottom",
+		{map = "8,7", path = "bottom"},
 		{map = "8,8", path = "bottom", gather = true},
 		{map = "8,9", path = "right", gather = true},
 		{map = "9,9", path = "top", gather = true},
@@ -79,8 +79,8 @@ function move()
 		{map = "6,8", path = "bottom", gather = true},
 		{map = "6,9", path = "left", gather = true},
 		{map = "5,9", path = "top"},
+		{map = "162791424", path = "zaap(88082704)"}, -- coin des bouftou --
 		{map = map:currentMap(), path = "havenbag", },
-		{map = "162791424", path = "zaap(88082704)"}, -- a remplacer par id tainela --
     }
 end
 
